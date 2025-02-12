@@ -1,0 +1,116 @@
+/*.......... i don't care,as long as itworks its fine..............*/ 
+.hell {
+    display: flex;
+    justify-content: space-around;
+}
+.hell>article {
+    width: 150px;
+    text-align: center;
+}
+li {
+    list-style-type: none;
+}
+a {
+    color: black;
+}
+h4 {
+    font-size: 20px;
+    margin-left: 25%;
+    color: rgb(255, 81, 0);
+}
+p {
+    border-top: 3px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding: 7px;
+}
+.third>ul>li>a{
+    text-decoration: none;
+}
+@media (max-width: 550px) {
+    .hell {
+        display: flex;
+        flex-direction: column;
+    }
+    .first {
+        width: 150px;
+        margin-left: 35%;
+        text-align: center;
+    }
+    .second {
+        width: 150px;
+        margin-left: 30%;
+        text-align: center;
+    }
+    .third {
+        width: 150px;
+        margin-left: 30%;
+        text-align: center;
+    }
+    .third>u1 :hover{
+        background-color: blue;
+    }
+    .fourth {
+        width: 150px;
+        margin-left: 30%;
+        text-align: center;
+    }
+    .fourth>a {
+        margin-left: 30px;
+    }
+    .fourth>.icons {
+        margin-top: 15px;
+        display: flex;
+    }
+    .fourth :hover {
+        background-color: rgb(rgb(52, 99, 143), green, blue);
+    }
+}
+@media (min-width: 551px) and (max-width: 800px) {
+        .hell {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+        .first>img {
+            margin-left: 45%;
+        }
+        .first>article {
+            width: 150px;
+            margin-left: 35%;
+            text-align: center;
+        }
+        .second {
+            margin-top: 5%;
+        }
+        .second>h4 {
+            margin-left: 50%;
+            margin-bottom: 15%;
+        }
+        .second>ul>li {
+            text-align: center;
+        }
+        .third>h4 {
+            margin-left: 50%;
+        }
+        .third>ul>li {
+            text-align: center;
+        }
+        .third>u1>li :hover{
+            background-color: blue;
+        }
+        .fourth>h4 {
+            margin-left: 45%;
+        }
+        .fourth>a {
+            margin-left: 40%;
+        }
+        .fourth>.icons {
+            margin-top: 15px;
+            margin-left: 27%;
+            display: flex;
+        }
+        .fourth>.icons :hover {
+            background-color: rgb(rgb(52, 99, 143), green, blue);
+        }
+
+}
